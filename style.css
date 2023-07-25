@@ -1,0 +1,254 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.header
+{ height: 50rem;
+	width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(banner0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align:center;
+    color:#fff;
+    padding-top: 1rem;
+}
+.header img{
+    width:90px;
+    float:left;
+    border-radius:9rem;
+    margin-top: 1.2rem;
+}
+.login-btn{
+   width:100px;
+   padding: 8px 0;
+   outline:none;
+   border-radius:50px;
+   background: transparent;
+   color: #fff;
+   float:right;
+   margin-top:1.2rem;
+   border-color: #fff;
+}
+.container button :hover{
+  color: #ff5722;
+  background-color: #1f3d90;
+  transform: scaleX(1);
+  cursor: pointer;
+}
+.header h1{
+ padding-top: 260px;
+ padding-bottom: 0;
+ font-size:55px;
+}
+.header p{
+    margin:18px 0;
+}
+.input-grp
+{
+    width:90%;
+    max-width:400px;
+    border-radius:30px;
+    background: #fff;
+    margin:auto;
+    padding:2px;
+    height:2.5rem;
+    
+    
+}
+.form-control
+{
+    border:0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow:none !important;
+    
+}
+
+.input-group-text-btn
+{
+    margin:auto;
+    width:100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border:0 !important;
+    color: #fff !important;
+    padding:0 25px;
+    border-radius:30px;
+    box-shadow:none;
+  
+}
+
+/*features*/
+ .features{
+     padding: 100px 0;
+ }
+ h1{
+     text-align: center;
+     padding-bottom: 50px;
+     padding-top: 3rem;
+ }
+ .feature-img img{
+     width:100%;
+ }
+ .cost
+ {
+     width:73px;
+     height:40px;
+     background: #ff5722;
+     color: #fff;
+     font-weight: 500;
+     border-radius: 47%;
+     padding: 10px;
+     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+     position: absolute;
+     left: px;
+     bottom: 2px;
+    }
+ .feature-img{
+     position: relative;
+ }
+ .feature-img img:hover{
+    transform: scale(1.1);
+  border-radius: 10px;
+}
+ .rating{
+     padding: 3px;
+     float: right;
+     background: #fff;
+     bottom: -1px;
+     right: 0;
+     position: absolute; 
+ }
+ .fas, .far{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-detail{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-detail h4{
+    font-weight: 600;
+    margin-top: 1px;
+}
+.feature-detail .fas{
+    margin: 6px;
+}
+.feature-box{
+    box-shadow:0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom:30px;
+}
+.gallery{
+    padding: 100px 0;
+    background: #e0dcdc;
+}
+.gallery-box h4{
+    width: 150px;
+    color: #fff;
+    text-align:center;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top:50%;
+    left:22%
+}
+.gallery-box img{
+    width:100%;
+    border-radius:10px;
+    cursor:pointer;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner{
+    height:45rem;
+    background-image: url(banner6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:14%;
+}
+
+.banner-highlights{
+padding:70px 0;
+background:rgba(0,0,0,0.7);
+text-align: center;
+color:#fff;
+}
+.booking-btn{
+    width:120px;
+    padding: 8px 0;
+    outline:none;
+    border-radius:50px;
+    background: transparent;
+    color: #fff;
+    margin-top:1.2rem;
+    border-color: #fff;
+}
+.user-rvw{
+    text-align: center;
+    box-shadow: 0 0 10px 0 #6495ed;
+    padding:40px; 
+}
+
+.feedback img{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  position:relative;
+  margin: -30px 0 20px 40%
+}
+.user-rvw p::before{
+    content:'\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color:#6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -30px;
+}
+.footer{
+    padding: 100px 20px 10px;
+    background-image:linear-gradient(#367bc0,#18420b) ;
+    color:#fff;
+}
+.footer-logo{
+    width: 60px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius:10rem;
+    float:left;
+}
+.footer h4{
+    text-align: left;
+    margin-top:15px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size:12px;
+    text-align:justify;
+    padding-right: 35px;
+}
+.footer .row .fas, .fab{
+    padding-right: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.footer .copywright{
+    text-align: center;
+}
+.fa-heart{
+    margin:0 5px;
+}
